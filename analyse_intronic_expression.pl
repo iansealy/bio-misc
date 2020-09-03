@@ -694,7 +694,7 @@ BAM file to analyse.
 
 RepeatMasker repeats file.
 
-=item B<--slice_regexp>
+=item B<--perfect_matches>
 
 Only count perfectly matching reads (in terms of alignment).
 
