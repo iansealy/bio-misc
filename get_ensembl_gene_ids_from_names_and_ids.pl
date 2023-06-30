@@ -28,7 +28,7 @@ my ( $debug, $help, $man );
 # Get and check command line options
 get_and_check_options();
 
-# Connnect to Ensembl database
+# Connect to Ensembl database
 Bio::EnsEMBL::Registry->load_registry_from_db(
     -host => $ensembl_dbhost,
     -port => $ensembl_dbport,
